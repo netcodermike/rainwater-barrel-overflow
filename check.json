@@ -1,0 +1,39 @@
+{
+  "command": [
+    "dotnet",
+    "bin/Debug/net8.0/App.dll"
+  ],
+  "expected": {
+    "captured_l": 130,
+    "overflow_l": 40,
+    "delivered_l": 100,
+    "unmet_l": 20,
+    "ending_l": 10,
+    "days": [
+      {
+        "date": "2026-11-24",
+        "captured_l": 120,
+        "overflow_l": 40,
+        "delivered_l": 30,
+        "unmet_l": 0,
+        "ending_l": 70
+      },
+      {
+        "date": "2026-11-25",
+        "captured_l": 0,
+        "overflow_l": 0,
+        "delivered_l": 70,
+        "unmet_l": 20,
+        "ending_l": 0
+      },
+      {
+        "date": "2026-11-26",
+        "captured_l": 10,
+        "overflow_l": 0,
+        "delivered_l": 0,
+        "unmet_l": 0,
+        "ending_l": 10
+      }
+    ]
+  }
+}

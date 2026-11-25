@@ -1,0 +1,23 @@
+{
+  "roof_m2": 10,
+  "efficiency": 0.8,
+  "capacity_l": 100,
+  "initial_l": 20,
+  "days": [
+    {
+      "date": "2026-11-26",
+      "rain_mm": 1.25,
+      "use_l": 0
+    },
+    {
+      "date": "2026-11-24",
+      "rain_mm": 15,
+      "use_l": 30
+    },
+    {
+      "date": "2026-11-25",
+      "rain_mm": 0,
+      "use_l": 90
+    }
+  ]
+}
